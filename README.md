@@ -18,9 +18,10 @@
    * [docker-compose.yml](#docker-composeyml)
    * [Jenkinsfile](#jenkinsfile)
 7. [Step 5: Jenkins Pipeline Creation and Execution](#7-step-5-jenkins-pipeline-creation-and-execution)
-8. [Conclusion](#8-conclusion)
-9. [Infrastructure Diagram](#9-infrastructure-diagram)
-10. [Work flow Diagram](#10-work-flow-diagram)
+8. [Step 6: Enable GitHub Webhook for Automatic Builds](#8-step-6-enable-gitHub-webhook-for-automatic-builds)
+9. [Conclusion](#9-conclusion)
+10. [Infrastructure Diagram](#10-infrastructure-diagram)
+11. [Work flow Diagram](#11-work-flow-diagram)
 
 ---
 
@@ -324,7 +325,7 @@ pipeline {
 
 ---
 
-8. Step 6: Enable GitHub Webhook for Automatic Builds
+### **8. Step 6: Enable GitHub Webhook for Automatic Builds**
 
 To trigger the Jenkins pipeline automatically whenever new code is pushed:
 
@@ -368,3 +369,4 @@ The CI/CD pipeline is now fully operational. Any `git push` to the `main` branch
 ### **11. Work flow Diagram**
 
 <img src="diagrams/project_workflow.png">
+
