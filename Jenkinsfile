@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                // Replace with your GitHub repository URL
-                git branch: 'master', url: 'https://github.com/YogeshR45/DevOps-Project-Two-Tier-Flask-App.git'
+                checkout scm
             }
         }
         stage('Build Docker Image') {
